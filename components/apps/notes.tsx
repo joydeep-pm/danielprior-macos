@@ -9,30 +9,51 @@ interface NotesProps {
 }
 
 export default function Notes({ isDarkMode = true }: NotesProps) {
+  // Update the notes state with enhanced content
   const [notes, setNotes] = useState([
     {
       id: 1,
       title: "About Me",
-      content: `# Daniel Smith
-Frontend Developer & UI/UX Enthusiast
+      content: `# Daniel Prior
+Frontend Developer & Full Stack Engineer
 
 ## Skills
+### Frontend
 - React/Next.js
-- TypeScript
-- Tailwind CSS
+- Vue.js/Nuxt.js
+- TypeScript/JavaScript
+- Tailwind CSS/SCSS
 - UI/UX Design
 - Responsive Web Development
+- Vite/Webpack
+
+### Backend
+- Node.js/Express
+- PHP/Laravel
+- Python/Django
+- Rust (learning)
+- SQL (MySQL, PostgreSQL)
+- NoSQL (MongoDB)
+- RESTful APIs/GraphQL
+
+### DevOps & Tools
+- Docker/Containerization
+- CI/CD Pipelines
+- Git/GitHub
+- Agile/Scrum Methodologies
+- AWS/Cloud Services
+- Linux/Unix
 
 ## Experience
-Currently working at TechCorp as a Senior Frontend Developer, focusing on building accessible and performant web applications.
+Currently working as a Senior Full Stack Developer, focusing on building accessible, performant, and scalable web applications. Experienced in leading development teams and implementing best practices for modern web development.
 
 ## Education
-Bachelor of Computer Science, University of Technology (2018-2022)
+Bachelor of Informations Technology, Aalborg Universitet
 
 ## Contact
-Email: daniel@example.com
-GitHub: github.com/danielsmith
-Portfolio: danielsmith.dev`,
+Email: mail@danielprior.dk
+GitHub: github.com/daprior
+Portfolio: danielprior.dev`,
       date: "Today, 10:30 AM",
     },
     {
@@ -40,11 +61,14 @@ Portfolio: danielsmith.dev`,
       title: "Project Ideas",
       content: `# Project Ideas for 2024
 
-1. AI-powered content recommendation system
-2. Real-time collaborative whiteboard app
-3. Personal finance tracker with ML insights
-4. Interactive portfolio website with 3D elements
-5. Cross-platform mobile app with React Native`,
+1. AI-powered content recommendation system using machine learning
+2. Real-time collaborative whiteboard app with WebSockets
+3. Personal finance tracker with ML insights and data visualization
+4. Interactive portfolio website with 3D elements using Three.js
+5. Cross-platform mobile app with React Native
+6. Microservices architecture with Docker and Kubernetes
+7. Blockchain-based authentication system
+8. IoT home automation dashboard with real-time monitoring`,
       date: "Yesterday, 3:15 PM",
     },
     {
@@ -52,11 +76,14 @@ Portfolio: danielsmith.dev`,
       title: "Learning Goals",
       content: `# Learning Goals
 
-- Master Three.js and WebGL
-- Improve knowledge of system design
-- Learn Rust programming
-- Explore AI/ML frameworks
-- Study UX research methodologies`,
+- Master Three.js and WebGL for interactive 3D web experiences
+- Deepen knowledge of system design and architecture patterns
+- Advance Rust programming skills for performance-critical applications
+- Explore AI/ML frameworks and practical applications
+- Study UX research methodologies and accessibility standards
+- Learn WebAssembly for high-performance web applications
+- Explore serverless architecture and edge computing
+- Contribute more to open-source projects`,
       date: "Mar 15, 2024",
     },
   ])

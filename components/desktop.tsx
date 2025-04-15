@@ -194,7 +194,7 @@ export default function Desktop({
       {/* Brightness overlay */}
       <div
         className="absolute inset-0 bg-black pointer-events-none z-50 transition-opacity duration-300"
-        style={{ opacity: 1 - screenBrightness / 100 }}
+        style={{ opacity: Math.max(0.1, 0.9 - screenBrightness / 100) }}
       />
     </div>
   )

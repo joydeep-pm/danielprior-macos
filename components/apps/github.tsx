@@ -14,7 +14,7 @@ export default function GitHub({ isDarkMode = true }: GitHubProps) {
 
   // Redirect to GitHub profile
   useEffect(() => {
-    window.open("https://github.com/yourusername", "_blank")
+    window.open("https://github.com/daprior", "_blank")
   }, [])
 
   return (

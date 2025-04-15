@@ -12,7 +12,7 @@ type SystemState = "booting" | "login" | "desktop" | "sleeping" | "shutdown" | "
 export default function Home() {
   const [systemState, setSystemState] = useState<SystemState>("booting")
   const [isDarkMode, setIsDarkMode] = useState(false) // Default to light mode
-  const [screenBrightness, setScreenBrightness] = useState(80)
+  const [screenBrightness, setScreenBrightness] = useState(90)
 
   // Simulate boot sequence
   useEffect(() => {
@@ -128,7 +128,7 @@ export default function Home() {
       {/* Brightness overlay - apply to all screens */}
       <div
         className="absolute inset-0 bg-black pointer-events-none z-50 transition-opacity duration-300"
-        style={{ opacity: 1 - screenBrightness / 100 }}
+        style={{ opacity: Math.max(0.1, 0.9 - screenBrightness / 100) }}
       />
     </div>
   )

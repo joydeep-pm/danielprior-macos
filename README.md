@@ -99,22 +99,20 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
 
-
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/macos-portfolio/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/daprior/danielprior-macos/issues).
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - [your.email@example.com](mailto:your.email@example.com)
+Daniel Prior - [mail@danielprior.dk](mailto:mail@danielprior.dk)
 
-Project Link: [https://github.com/yourusername/macos-portfolio](https://github.com/yourusername/macos-portfolio)
+Project Link: [https://github.com/daprior/danielprior-macos](https://github.com/daprior/danielprior-macos)
 
 ---
 
 `<p align="center">`Made with ❤️ by Your Name`</p>`
 
-```plaintext
 
 To see how this README will look when rendered on GitHub:
 
@@ -130,4 +128,3 @@ The rendered version on GitHub will include:
 - Centered text at the bottom
 
 Remember to replace the placeholder information (like "yourusername" and "Your Name") with your actual details before publishing.
-```

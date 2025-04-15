@@ -13,7 +13,7 @@ export default function YouTube({ isDarkMode = true }: YouTubeProps) {
   // Open YouTube channel when the app is opened
   useEffect(() => {
     // Replace with your actual YouTube channel URL
-    const youtubeUrl = "https://youtube.com/@yourusername"
+    const youtubeUrl = "https://www.youtube.com/@DanielPrior0"
     window.open(youtubeUrl, "_blank")
   }, [])
 

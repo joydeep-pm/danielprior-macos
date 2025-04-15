@@ -139,7 +139,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
         setHistory((prev) => [
           ...prev,
           "┌─────────────────────────────────────┐",
-          "│ Daniel Smith                        │",
+          "│ Daniel Prior                        │",
           "│ Frontend Developer & UI/UX Designer │",
           "└─────────────────────────────────────┘",
           "",
@@ -194,10 +194,10 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
           "│ Contact │",
           "└─────────┘",
           "",
-          "Email: daniel@example.com",
-          "GitHub: github.com/danielsmith",
-          "LinkedIn: linkedin.com/in/danielsmith",
-          "Website: danielsmith.dev",
+          "Email: mail@danielprior.dk",
+          "GitHub: github.com/danielprior",
+          "LinkedIn: linkedin.com/in/daniel-prior-53a679195/",
+          "Website: danielprior.dev",
           "",
         ])
         break

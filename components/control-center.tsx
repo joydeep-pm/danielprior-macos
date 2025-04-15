@@ -120,7 +120,7 @@ export default function ControlCenter({
           </div>
           <input
             type="range"
-            min="0"
+            min="10"
             max="100"
             value={brightness}
             onChange={(e) => onBrightnessChange(Number.parseInt(e.target.value))}

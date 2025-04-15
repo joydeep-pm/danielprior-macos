@@ -8,7 +8,7 @@ interface SafariProps {
 }
 
 export default function Safari({ isDarkMode = true }: SafariProps) {
-  const [url, setUrl] = useState("https://danielsmith.dev")
+  const [url, setUrl] = useState("https://danielprior.dev")
   const [isLoading, setIsLoading] = useState(false)
   const [activeTab, setActiveTab] = useState("home")
   const [wifiEnabled, setWifiEnabled] = useState(true)
@@ -47,27 +47,22 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
   const socialLinks = [
     {
       title: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://www.linkedin.com/in/daniel-prior-53a679195/",
       icon: "/linkedin-icon.png",
     },
     {
       title: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/daprior",
       icon: "/github.png",
     },
     {
-      title: "Twitter",
-      url: "https://twitter.com/yourusername",
-      icon: "/twitter-icon.png",
-    },
-    {
       title: "YouTube",
-      url: "https://youtube.com/@yourusername",
+      url: "https://www.youtube.com/@DanielPrior0",
       icon: "/youtube.png",
     },
     {
       title: "Email",
-      url: "mailto:your.email@example.com",
+      url: "mailto:mail@danielprior.dk",
       icon: "/mail.png",
     },
   ]
@@ -221,7 +216,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
 
               <div className="mt-8 max-w-2xl mx-auto">
                 <div className={`p-6 rounded-lg ${cardBg}`}>
-                  <h3 className="text-xl font-semibold mb-4">Daniel Smith - Portfolio</h3>
+                  <h3 className="text-xl font-semibold mb-4">Daniel Prior - Portfolio</h3>
                   <p className="mb-4">
                     Welcome to my portfolio website! I'm a frontend developer specializing in creating beautiful,
                     responsive, and user-friendly web applications.
