@@ -2,7 +2,8 @@
 
 import type React from "react"
 
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
+import { MoreHorizontal } from "lucide-react"
 import type { AppWindow } from "@/types"
 
 // Updated app list with Snake game
@@ -17,7 +18,6 @@ const dockApps = [
   { id: "github", title: "GitHub", icon: "/github.png", component: "GitHub" },
   { id: "youtube", title: "YouTube", icon: "/youtube.png", component: "YouTube" },
   { id: "spotify", title: "Spotify", icon: "/spotify.png", component: "Spotify" },
-  { id: "snake", title: "Snake", icon: "/snake.png", component: "Snake" },
 ]
 
 interface DockProps {
@@ -30,6 +30,36 @@ interface DockProps {
 export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDarkMode }: DockProps) {
   const [mouseX, setMouseX] = useState<number | null>(null)
   const dockRef = useRef<HTMLDivElement>(null)
+  const [isMobile, setIsMobile] = useState(false)
+  const [showMobileMenu, setShowMobileMenu] = useState(false)
+
+  // Check if we're on a mobile device
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+
+    checkMobile()
+    window.addEventListener("resize", checkMobile)
+
+    return () => window.removeEventListener("resize", checkMobile)
+  }, [])
+
+  // Close mobile menu when clicking outside
+  useEffect(() => {
+    if (!showMobileMenu) return
+
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dockRef.current && !dockRef.current.contains(event.target as Node)) {
+        setShowMobileMenu(false)
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside)
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside)
+    }
+  }, [showMobileMenu])
 
   const handleAppClick = (app: (typeof dockApps)[0]) => {
     if (app.id === "launchpad") {
@@ -44,10 +74,15 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
       position: { x: Math.random() * 200 + 100, y: Math.random() * 100 + 50 },
       size: { width: 800, height: 600 },
     })
+
+    // Close mobile menu after clicking an app
+    if (showMobileMenu) {
+      setShowMobileMenu(false)
+    }
   }
 
   const handleMouseMove = (e: React.MouseEvent) => {
-    if (dockRef.current) {
+    if (dockRef.current && !isMobile) {
       const rect = dockRef.current.getBoundingClientRect()
       const x = e.clientX - rect.left
       setMouseX(x)
@@ -60,7 +95,7 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
 
   // Calculate scale for each icon based on distance from mouse
   const getIconScale = (index: number, iconCount: number) => {
-    if (mouseX === null) return 1
+    if (mouseX === null || isMobile) return 1
 
     // Get the dock width and calculate the position of each icon
     const dockWidth = dockRef.current?.offsetWidth || 0
@@ -83,59 +118,114 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
     return scale
   }
 
-  return (
-    <div
-      ref={dockRef}
-      className={`fixed bottom-2 left-1/2 transform -translate-x-1/2 px-3 py-1 rounded-2xl 
-        ${isDarkMode ? "bg-white/10" : "bg-white/60"} backdrop-blur-xl 
-        flex items-end z-50 border border-white/20 shadow-lg h-16`}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-    >
-      {dockApps.map((app, index) => {
-        const scale = getIconScale(index, dockApps.length)
+  // For mobile, we'll show only the first 4 apps plus a "more" button
+  const visibleApps = isMobile ? dockApps.slice(0, 4) : dockApps
+  const hiddenApps = isMobile ? dockApps.slice(4) : []
 
-        return (
-          <div
-            key={app.id}
-            className="flex flex-col items-center justify-end h-full px-2"
-            style={{
-              transform: `translateY(${(scale - 1) * -8}px)`,
-              zIndex: scale > 1 ? 10 : 1,
-              transition: mouseX === null ? "transform 0.2s ease-out" : "none",
-            }}
-            onClick={() => handleAppClick(app)}
-          >
+  return (
+    <div ref={dockRef} className="fixed bottom-2 left-1/2 transform -translate-x-1/2 z-50">
+      {/* Mobile expanded menu */}
+      {isMobile && showMobileMenu && (
+        <div
+          className={`absolute bottom-20 left-1/2 transform -translate-x-1/2 w-[280px] 
+          ${isDarkMode ? "bg-gray-800/90" : "bg-white/90"} backdrop-blur-xl 
+          rounded-xl border border-white/20 shadow-lg p-4 mb-2`}
+        >
+          <div className="grid grid-cols-4 gap-4">
+            {hiddenApps.map((app) => (
+              <div
+                key={app.id}
+                className="flex flex-col items-center justify-center"
+                onClick={() => handleAppClick(app)}
+              >
+                <div className="w-14 h-14 flex items-center justify-center">
+                  <img
+                    src={app.icon || "/placeholder.svg"}
+                    alt={app.title}
+                    className="w-12 h-12 object-contain"
+                    draggable="false"
+                  />
+                </div>
+                <span className={`text-xs mt-1 ${isDarkMode ? "text-white" : "text-gray-800"}`}>{app.title}</span>
+                {activeAppIds.includes(app.id) && <div className="w-1 h-1 bg-white rounded-full mt-1"></div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Main dock */}
+      <div
+        className={`px-3 py-2 rounded-2xl 
+          ${isDarkMode ? "bg-white/10" : "bg-white/60"} backdrop-blur-xl 
+          flex items-end border border-white/20 shadow-lg
+          ${isMobile ? "h-20" : "h-16"}`}
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+      >
+        {visibleApps.map((app, index) => {
+          const scale = getIconScale(index, visibleApps.length)
+
+          return (
             <div
-              className="relative cursor-pointer"
+              key={app.id}
+              className={`flex flex-col items-center justify-end h-full ${isMobile ? "px-3" : "px-2"}`}
               style={{
-                transform: `scale(${scale})`,
-                transformOrigin: "bottom center",
+                transform: isMobile ? "none" : `translateY(${(scale - 1) * -8}px)`,
+                zIndex: scale > 1 ? 10 : 1,
                 transition: mouseX === null ? "transform 0.2s ease-out" : "none",
               }}
+              onClick={() => handleAppClick(app)}
             >
-              <img
-                src={app.icon || "/placeholder.svg"}
-                alt={app.title}
-                className="w-12 h-12 object-contain"
-                draggable="false"
-              />
+              <div
+                className="relative cursor-pointer"
+                style={{
+                  transform: isMobile ? "none" : `scale(${scale})`,
+                  transformOrigin: "bottom center",
+                  transition: mouseX === null ? "transform 0.2s ease-out" : "none",
+                }}
+              >
+                <img
+                  src={app.icon || "/placeholder.svg"}
+                  alt={app.title}
+                  className={`object-contain ${isMobile ? "w-14 h-14" : "w-12 h-12"}`}
+                  draggable="false"
+                />
 
-              {/* Tooltip */}
-              {scale > 1.5 && (
-                <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-1 px-2 py-1 bg-black/70 text-white text-xs rounded whitespace-nowrap">
-                  {app.title}
-                </div>
-              )}
+                {/* Tooltip - only on desktop */}
+                {!isMobile && scale > 1.5 && (
+                  <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-1 px-2 py-1 bg-black/70 text-white text-xs rounded whitespace-nowrap">
+                    {app.title}
+                  </div>
+                )}
 
-              {/* Indicator dot for active apps */}
-              {activeAppIds.includes(app.id) && (
-                <div className="absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 w-1 h-1 bg-white rounded-full"></div>
-              )}
+                {/* Indicator dot for active apps */}
+                {activeAppIds.includes(app.id) && (
+                  <div className="absolute bottom-[-5px] left-1/2 transform -translate-x-1/2 w-1 h-1 bg-white rounded-full"></div>
+                )}
+              </div>
+            </div>
+          )
+        })}
+
+        {/* More button for mobile */}
+        {isMobile && (
+          <div
+            className="flex flex-col items-center justify-end h-full px-3"
+            onClick={() => setShowMobileMenu(!showMobileMenu)}
+          >
+            <div className="relative cursor-pointer">
+              <div
+                className={`w-14 h-14 rounded-full flex items-center justify-center 
+                ${isDarkMode ? "bg-gray-700" : "bg-gray-200"} 
+                ${showMobileMenu ? (isDarkMode ? "bg-blue-700" : "bg-blue-200") : ""}`}
+              >
+                <MoreHorizontal className={`w-8 h-8 ${isDarkMode ? "text-white" : "text-gray-800"}`} />
+              </div>
             </div>
           </div>
-        )
-      })}
+        )}
+      </div>
     </div>
   )
 }

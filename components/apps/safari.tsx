@@ -48,7 +48,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "LinkedIn",
       url: "https://www.linkedin.com/in/daniel-prior-53a679195/",
-      icon: "/linkedin-icon.png",
+      icon: "/linkedin.png",
     },
     {
       title: "GitHub",
@@ -76,12 +76,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "LinkedIn",
       url: "https://linkedin.com",
-      icon: "/linkedin-icon.png",
-    },
-    {
-      title: "Twitter",
-      url: "https://twitter.com",
-      icon: "/twitter-icon.png",
+      icon: "/linkedin.png",
     },
     {
       title: "YouTube",
@@ -91,12 +86,17 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     {
       title: "Reddit",
       url: "https://reddit.com",
-      icon: "/reddit-icon.png",
+      icon: "/reddit.png",
+    },
+    {
+      title: "ChatGPT",
+      url: "https://chatgpt.com",
+      icon: "/chatgpt.png",
     },
     {
       title: "Stack Overflow",
       url: "https://stackoverflow.com",
-      icon: "/stackoverflow-icon.png",
+      icon: "/stackoverflow.png",
     },
   ]
 

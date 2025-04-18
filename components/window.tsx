@@ -15,6 +15,8 @@ import Mail from "@/components/apps/mail"
 import YouTube from "@/components/apps/youtube"
 import Spotify from "@/components/apps/spotify"
 import Snake from "@/components/apps/snake"
+import Weather from "@/components/apps/weather"
+
 
 const componentMap: Record<string, React.ComponentType<{ isDarkMode?: boolean }>> = {
   Notes,
@@ -27,6 +29,7 @@ const componentMap: Record<string, React.ComponentType<{ isDarkMode?: boolean }>
   YouTube,
   Spotify,
   Snake,
+  Weather,
 }
 
 interface WindowProps {

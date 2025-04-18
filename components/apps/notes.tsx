@@ -26,15 +26,25 @@ Frontend Developer & Full Stack Engineer
 - UI/UX Design
 - Responsive Web Development
 - Vite/Webpack
+- Wordpress, Umbraco etc.
 
 ### Backend
 - Node.js/Express
-- PHP/Laravel
+- PHP/Laravel/Slim
 - Python/Django
-- Rust (learning)
+- Rust & GO (learning)
 - SQL (MySQL, PostgreSQL)
 - NoSQL (MongoDB)
 - RESTful APIs/GraphQL
+
+### Game Development
+- Unity/Unreal Engine
+- C# & C++
+- Game Design Principles
+- Game Mechanics & Systems
+- Blender 3D/3D Modeling
+- Animations for agricultural machinery and vehicles
+- Godot Engine
 
 ### DevOps & Tools
 - Docker/Containerization
@@ -58,33 +68,33 @@ Portfolio: danielprior.dev`,
     },
     {
       id: 2,
-      title: "Project Ideas",
-      content: `# Project Ideas for 2024
-
-1. AI-powered content recommendation system using machine learning
-2. Real-time collaborative whiteboard app with WebSockets
-3. Personal finance tracker with ML insights and data visualization
-4. Interactive portfolio website with 3D elements using Three.js
-5. Cross-platform mobile app with React Native
-6. Microservices architecture with Docker and Kubernetes
-7. Blockchain-based authentication system
-8. IoT home automation dashboard with real-time monitoring`,
-      date: "Yesterday, 3:15 PM",
-    },
-    {
-      id: 3,
       title: "Learning Goals",
       content: `# Learning Goals
 
-- Master Three.js and WebGL for interactive 3D web experiences
-- Deepen knowledge of system design and architecture patterns
-- Advance Rust programming skills for performance-critical applications
-- Explore AI/ML frameworks and practical applications
-- Study UX research methodologies and accessibility standards
-- Learn WebAssembly for high-performance web applications
-- Explore serverless architecture and edge computing
-- Contribute more to open-source projects`,
-      date: "Mar 15, 2024",
+## Career & Independence
+- Network with like-minded professionals and mentors
+- Build a personal brand and online presence
+- Work on meaningful AI projects with real-world impact
+- Enhance knowledge in industries I'm passionate about (fintech, finance, web3 and automotive)
+
+## Technical Skills
+- Master Rust for performance-critical applications and systems programming
+- Improve Go proficiency for backend services and microservices
+- Deepen knowledge of AI/ML frameworks and practical applications
+- Make popular games with Unity and Unreal Engine
+
+## Personal Projects
+- Develop an indie game from concept to release
+- Build AI-powered tools that enhance creative workflows
+- Create open-source libraries that solve real problems
+- Contribute to projects I use and admire
+
+## Learning Approach
+- Focus on deep understanding rather than surface-level knowledge
+- Build complete projects rather than just tutorials and unfinished projects
+- Share knowledge and experiences with the community
+- Maintain a balance between breadth and depth of skills`,
+      date: "Yesterday, 3:15 PM",
     },
   ])
 
