@@ -3,9 +3,8 @@ import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Daniel Prior | macOS Portfolio',
+  description: 'Personal portfolio of Daniel Prior, showcasing web development projects and skills',
 }
 
 export default function RootLayout({

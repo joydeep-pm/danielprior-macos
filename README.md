@@ -101,6 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to [Renovamen](https://github.com/Renovamen/playground-macos) for the original inspiration for this macOS-themed portfolio concept.
 - Icons from [Lucide React](https://lucide.dev/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Initial layout jump-started with v0 — [V0/Vercel](https://v0.dev/)
 - Built with [Next.js](https://nextjs.org/) and [Tailwind CSS](https://tailwindcss.com/)
 
 ## 🤝 Contributing
