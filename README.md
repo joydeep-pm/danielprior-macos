@@ -46,7 +46,7 @@ Demo Link: [http://danielprior.dev](http://danielprior.dev)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/macos-portfolio.git
+git clone https://github.com/daprior/danielprior-macos.git
 cd macos-portfolio
 
 2. Install 
