@@ -152,7 +152,7 @@ export default function Menubar({
             </button>
             <div className="border-t border-gray-700 my-1"></div>
             <button className={`w-full text-left px-4 py-1 ${hoverClass}`} onClick={onLogout}>
-              Log Out Daniel...
+              Log Out Joydeep...
             </button>
           </div>
         )}

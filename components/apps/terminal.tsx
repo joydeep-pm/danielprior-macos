@@ -92,7 +92,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
     const mainCommand = args[0]
 
     // Add command to history
-    setHistory((prev) => [...prev, `daniel@macbook-pro ~ $ ${cmd}`, ""])
+    setHistory((prev) => [...prev, `joydeep@macbook-pro ~ $ ${cmd}`, ""])
 
     // Process command
     switch (mainCommand) {
@@ -131,25 +131,22 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
         break
 
       case "whoami":
-        setHistory((prev) => [...prev, "daniel", ""])
+        setHistory((prev) => [...prev, "joydeep", ""])
         break
 
       case "about":
         setHistory((prev) => [
           ...prev,
           "┌─────────────────────────────────────┐",
-          "│ Daniel Prior                        │",
-          "│ Frontend Developer & UI/UX Designer │",
+          "│ Joydeep Sarkar                      │",
+          "│ Product Management Leader           │",
           "└─────────────────────────────────────┘",
           "",
-          "I'm a passionate web developer with expertise in",
-          "creating beautiful, responsive, and user-friendly",
-          "web applications. I love working with modern",
-          "frameworks and technologies to build",
-          "seamless user experiences. I have a strong",
-          "background in both frontend and backend",
-          "development, and I'm always eager to learn",
-          "new skills and improve my craft.",
+          "Experienced product leader in fintech and",
+          "digital lending. Focused on building",
+          "scalable lending platforms, driving growth,",
+          "and improving customer outcomes through",
+          "data-driven product strategy and execution.",
           "",
         ])
         break
@@ -161,41 +158,25 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
             "│   Skills     │",
             "└──────────────┘",
             "",
-            "Frontend:",
-            "• React / Next.js",
-            "• Vue.js / Nuxt.js",
-            "• TypeScript / JavaScript",
-            "• Tailwind CSS / SCSS",
-            "• UI/UX Design",
-            "• Responsive Web Development",
-            "• Vite / Webpack",
-            "• WordPress, Umbraco etc.",
+            "Product Strategy:",
+            "• 0-to-1 and 1-to-10 product delivery",
+            "• Roadmap, prioritization, GTM",
+            "• User research and product discovery",
             "",
-            "Backend:",
-            "• Node.js / Express",
-            "• PHP / Laravel / Slim",
-            "• Python / Django",
-            "• Rust & Go (learning)",
-            "• SQL (MySQL, PostgreSQL)",
-            "• NoSQL (MongoDB)",
-            "• RESTful APIs / GraphQL",
+            "Fintech and Lending:",
+            "• API-first LOS/LMS platforms",
+            "• Co-lending and reconciliation systems",
+            "• Risk, compliance, and operations workflows",
             "",
-            "Game Development:",
-            "• Unity / Unreal Engine",
-            "• C# & C++",
-            "• Game Design Principles",
-            "• Game Mechanics & Systems",
-            "• Blender 3D / 3D Modeling",
-            "• Animations for agri machinery & vehicles",
-            "• Godot Engine",
+            "Growth and Analytics:",
+            "• Revenue optimization and pricing",
+            "• Data products and automation",
+            "• KPIs, funnels, and experimentation",
             "",
-            "DevOps & Tools:",
-            "• Docker / Containerization",
-            "• CI/CD Pipelines",
-            "• Git / GitHub",
-            "• Agile / Scrum Methodologies",
-            "• AWS / Cloud Services",
-            "• Linux / Unix",
+            "Leadership:",
+            "• Cross-functional team leadership",
+            "• Stakeholder management",
+            "• Execution at scale",
             "",
           ])
           break
@@ -207,10 +188,12 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
           "│ Contact │",
           "└─────────┘",
           "",
-          "Email: mail@danielprior.dk",
-          "GitHub: github.com/daprior",
-          "LinkedIn: linkedin.com/in/daniel-prior-53a679195/",
-          "Website: danielprior.dev",
+          "Email: joytdh@gmail.com",
+          "Website: joydeepsarkar.me",
+          "GitHub: github.com/joydeep-pm",
+          "LinkedIn: linkedin.com/in/joydeepsarkar1987/",
+          "Phone: +91 877-771-7039",
+          "Location: Bengaluru, India",
           "",
         ])
         break
@@ -234,7 +217,7 @@ export default function Terminal({ isDarkMode = true }: TerminalProps) {
       ))}
 
       <div className="flex">
-        <span className="mr-2">daniel@macbook-pro ~ $</span>
+        <span className="mr-2">joydeep@macbook-pro ~ $</span>
         <input
           ref={inputRef}
           type="text"

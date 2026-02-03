@@ -8,7 +8,7 @@ interface SafariProps {
 }
 
 export default function Safari({ isDarkMode = true }: SafariProps) {
-  const [url, setUrl] = useState("https://danielprior.dev")
+  const [url, setUrl] = useState("https://www.joydeepsarkar.me")
   const [isLoading, setIsLoading] = useState(false)
   const [activeTab, setActiveTab] = useState("home")
   const [wifiEnabled, setWifiEnabled] = useState(true)
@@ -43,26 +43,26 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
     }, 1000)
   }
 
-  // Updated bookmarks with social links
+  // Updated bookmarks with Joydeep's links
   const socialLinks = [
     {
+      title: "Website",
+      url: "https://www.joydeepsarkar.me",
+      icon: "/safari.png",
+    },
+    {
       title: "LinkedIn",
-      url: "https://www.linkedin.com/in/daniel-prior-53a679195/",
+      url: "https://www.linkedin.com/in/joydeepsarkar1987/",
       icon: "/linkedin.png",
     },
     {
       title: "GitHub",
-      url: "https://github.com/daprior",
+      url: "https://github.com/joydeep-pm",
       icon: "/github.png",
     },
     {
-      title: "YouTube",
-      url: "https://www.youtube.com/@DanielPrior0",
-      icon: "/youtube.png",
-    },
-    {
       title: "Email",
-      url: "mailto:mail@danielprior.dk",
+      url: "mailto:joytdh@gmail.com",
       icon: "/mail.png",
     },
   ]
@@ -180,7 +180,7 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
         ) : (
           activeTab === "home" && (
             <div className="p-8">
-              <h2 className="text-2xl font-bold mb-6">SNS Links</h2>
+              <h2 className="text-2xl font-bold mb-6">Links</h2>
 
               <div className="grid grid-cols-5 sm:grid-cols-7 gap-6 mb-12">
                 {socialLinks.map((link, index) => (
@@ -216,14 +216,14 @@ export default function Safari({ isDarkMode = true }: SafariProps) {
 
               <div className="mt-8 max-w-2xl mx-auto">
                 <div className={`p-6 rounded-lg ${cardBg}`}>
-                  <h3 className="text-xl font-semibold mb-4">Daniel Prior - Portfolio</h3>
+                  <h3 className="text-xl font-semibold mb-4">Joydeep Sarkar - Product Leader</h3>
                   <p className="mb-4">
-                    Welcome to my portfolio website! I'm a frontend developer specializing in creating beautiful,
-                    responsive, and user-friendly web applications.
+                    Product management leader in fintech and digital lending with experience building and scaling
+                    lending platforms.
                   </p>
                   <p className="mb-4">
-                    With expertise in React, Next.js, TypeScript, and modern CSS frameworks, I build performant web
-                    experiences that users love.
+                    Proven track record delivering 0-to-1 and 1-to-10 initiatives that drive growth, efficiency, and
+                    customer impact.
                   </p>
                   <div className="flex justify-end">
                     <button

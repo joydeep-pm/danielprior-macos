@@ -3,8 +3,8 @@ import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
-  title: 'Daniel Prior | macOS Portfolio',
-  description: 'Personal portfolio of Daniel Prior, showcasing web development projects and skills',
+  title: 'Joydeep Sarkar | macOS Portfolio',
+  description: 'Personal portfolio of Joydeep Sarkar, product management leader in fintech and digital lending',
 }
 
 export default function RootLayout({

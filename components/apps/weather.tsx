@@ -101,6 +101,24 @@ const weatherData = {
       { day: "Fri", temp: 17, condition: "partly-cloudy" },
     ],
   },
+  "Bengaluru": {
+    current: {
+      temp: 27,
+      condition: "Partly Cloudy",
+      humidity: 62,
+      windSpeed: 10,
+      sunrise: "6:30 AM",
+      sunset: "6:15 PM",
+      feelsLike: 29,
+    },
+    forecast: [
+      { day: "Mon", temp: 28, condition: "partly-cloudy" },
+      { day: "Tue", temp: 29, condition: "sunny" },
+      { day: "Wed", temp: 27, condition: "rainy" },
+      { day: "Thu", temp: 28, condition: "partly-cloudy" },
+      { day: "Fri", temp: 26, condition: "rainy" },
+    ],
+  },
 }
 
 type WeatherCondition = "sunny" | "partly-cloudy" | "cloudy" | "rainy" | "snowy"
@@ -116,9 +134,9 @@ interface Particle {
 }
 
 export default function Weather({ isDarkMode = true }: WeatherProps) {
-  const [city, setCity] = useState("New York")
+  const [city, setCity] = useState("Bengaluru")
   const [searchQuery, setSearchQuery] = useState("")
-  const [weather, setWeather] = useState(weatherData["New York"])
+  const [weather, setWeather] = useState(weatherData["Bengaluru"])
   const [condition, setCondition] = useState<WeatherCondition>("partly-cloudy")
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const particles = useRef<Particle[]>([])

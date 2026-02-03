@@ -14,83 +14,51 @@ export default function Notes({ isDarkMode = true }: NotesProps) {
     {
       id: 1,
       title: "About Me",
-      content: `# Daniel Prior
-Frontend Developer & Full Stack Engineer
+      content: `# Joydeep Sarkar
+Product Management Leader | Fintech and Digital Lending
 
-## Skills
-### Frontend
-- React/Next.js
-- Vue.js/Nuxt.js
-- TypeScript/JavaScript
-- Tailwind CSS/SCSS
-- UI/UX Design
-- Responsive Web Development
-- Vite/Webpack
-- Wordpress, Umbraco etc.
+## Summary
+Experienced product leader with 5+ years in fintech and e-commerce, specializing in digital lending. Led 0-to-1 and 1-to-10 initiatives that delivered 3x YoY revenue growth and 2M+ active users.
 
-### Backend
-- Node.js/Express
-- PHP/Laravel/Slim
-- Python/Django
-- Rust & GO (learning)
-- SQL (MySQL, PostgreSQL)
-- NoSQL (MongoDB)
-- RESTful APIs/GraphQL
-
-### Game Development
-- Unity/Unreal Engine
-- C# & C++
-- Game Design Principles
-- Game Mechanics & Systems
-- Blender 3D/3D Modeling
-- Animations for agricultural machinery and vehicles
-- Godot Engine
-
-### DevOps & Tools
-- Docker/Containerization
-- CI/CD Pipelines
-- Git/GitHub
-- Agile/Scrum Methodologies
-- AWS/Cloud Services
-- Linux/Unix
-
-## Experience
-Currently working as a Senior Full Stack Developer, focusing on building accessible, performant, and scalable web applications. Experienced in leading development teams and implementing best practices for modern web development.
+## Core Strengths
+- Product strategy and roadmap ownership
+- API-first lending platforms (LOS/LMS)
+- Go-to-market and scale for B2B and B2C lending
+- Data-driven growth and revenue optimization
+- Cross-functional leadership and execution
 
 ## Contact
-Email: mail@danielprior.dk
-GitHub: github.com/daprior
-Portfolio: danielprior.dev`,
+Email: joytdh@gmail.com
+Phone: +91 877-771-7039
+Location: Bengaluru, India
+Website: joydeepsarkar.me
+LinkedIn: linkedin.com/in/joydeepsarkar1987/
+GitHub: github.com/joydeep-pm`,
       date: "Today, 10:30 AM",
     },
     {
       id: 2,
-      title: "Learning Goals",
-      content: `# Learning Goals
+      title: "Experience Highlights",
+      content: `# Experience Highlights
 
-## Career & Independence
-- Network with like-minded professionals and mentors
-- Build a personal brand and online presence
-- Work on meaningful AI projects with real-world impact
-- Enhance knowledge in industries I'm passionate about (fintech, finance, web3 and automotive)
+## Director - Core Lending Suite, M2P Fintech (Nov 2024 - Present)
+- Led product vision for an API-first, low-code lending platform serving 15+ institutions
+- Launched co-lending module and reconciliation systems processing $50M+ loan volume
+- Built Loan Against Securities product supporting a $200M+ portfolio
 
-## Technical Skills
-- Master Rust for performance-critical applications and systems programming
-- Improve Go proficiency for backend services and microservices
-- Deepen knowledge of AI/ML frameworks and practical applications
-- Make popular games with Unity and Unreal Engine
+## Director - Product, Lending, Paytm (Nov 2022 - Nov 2024)
+- Drove 4x YoY loan disbursals through LMS strategy and execution
+- Reduced billing cycle time by 65% with automated revenue data products
+- Orchestrated partner integrations securing INR 1500Cr+ monthly disbursal capital
 
-## Personal Projects
-- Develop an indie game from concept to release
-- Build AI-powered tools that enhance creative workflows
-- Create open-source libraries that solve real problems
-- Contribute to projects I use and admire
+## Lead Product Manager, Finvolv (Dec 2021 - Oct 2022)
+- Achieved 3x ARR growth and 27% quarterly revenue growth
+- Delivered API-first lending stack deployed across 12+ institutions
+- Built underwriting engine improving approvals by 45%
 
-## Learning Approach
-- Focus on deep understanding rather than surface-level knowledge
-- Build complete projects rather than just tutorials and unfinished projects
-- Share knowledge and experiences with the community
-- Maintain a balance between breadth and depth of skills`,
+## Education
+- EPGP (1-Year MBA) - IIM Bangalore
+- B.Tech (Electrical Engineering) - WBUT`,
       date: "Yesterday, 3:15 PM",
     },
   ])
