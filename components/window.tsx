@@ -16,6 +16,7 @@ import YouTube from "@/components/apps/youtube"
 import Spotify from "@/components/apps/spotify"
 import Snake from "@/components/apps/snake"
 import Weather from "@/components/apps/weather"
+import Assistant from "@/components/apps/assistant"
 
 
 const componentMap: Record<string, React.ComponentType<{ isDarkMode?: boolean }>> = {
@@ -30,6 +31,7 @@ const componentMap: Record<string, React.ComponentType<{ isDarkMode?: boolean }>
   Spotify,
   Snake,
   Weather,
+  Assistant,
 }
 
 interface WindowProps {

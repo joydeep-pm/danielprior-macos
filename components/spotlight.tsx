@@ -6,6 +6,13 @@ import type { AppWindow } from "@/types"
 const spotlightApps = [
   { id: "safari", title: "Safari", icon: "/safari.png", component: "Safari" },
   { id: "mail", title: "Mail", icon: "/mail.png", component: "Mail" },
+  {
+    id: "assistant",
+    title: "Ask Mac",
+    windowTitle: "Mac - Joydeep's portfolio assistant",
+    icon: "/chatgpt.png",
+    component: "Assistant",
+  },
   { id: "vscode", title: "VS Code", icon: "/vscode.png", component: "VSCode" },
   { id: "notes", title: "Notes", icon: "/notes.png", component: "Notes" },
   { id: "facetime", title: "FaceTime", icon: "/facetime.png", component: "FaceTime" },
@@ -65,7 +72,7 @@ export default function Spotlight({ onClose, onAppClick }: SpotlightProps) {
   const handleAppClick = (app: (typeof spotlightApps)[0]) => {
     onAppClick({
       id: app.id,
-      title: app.title,
+      title: app.windowTitle || app.title,
       component: app.component,
       position: { x: Math.random() * 200 + 100, y: Math.random() * 100 + 50 },
       size: { width: 800, height: 600 },

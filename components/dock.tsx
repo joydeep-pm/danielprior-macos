@@ -9,6 +9,13 @@ import type { AppWindow } from "@/types"
 // Updated app list with Snake game
 const dockApps = [
   { id: "launchpad", title: "Launchpad", icon: "/launchpad.png", component: "Launchpad", isSystem: true },
+  {
+    id: "assistant",
+    title: "Ask Mac",
+    windowTitle: "Mac - Joydeep's portfolio assistant",
+    icon: "/chatgpt.png",
+    component: "Assistant",
+  },
   { id: "safari", title: "Safari", icon: "/safari.png", component: "Safari" },
   { id: "mail", title: "Mail", icon: "/mail.png", component: "Mail" },
   { id: "vscode", title: "VS Code", icon: "/vscode.png", component: "VSCode" },
@@ -69,7 +76,7 @@ export default function Dock({ onAppClick, onLaunchpadClick, activeAppIds, isDar
 
     onAppClick({
       id: app.id,
-      title: app.title,
+      title: app.windowTitle || app.title,
       component: app.component,
       position: { x: Math.random() * 200 + 100, y: Math.random() * 100 + 50 },
       size: { width: 800, height: 600 },

@@ -1,0 +1,781 @@
+{
+  "version": 1,
+  "createdAt": "2026-02-04T15:38:28.441Z",
+  "chunks": [
+    {
+      "id": "website:hero:0",
+      "text": "Hello! I'm Joydeep Sarkar, a Fintech Product Leader & Lending Infrastructure Specialist\nBuilding scalable financial products that bridge the gap between traditional banking and modern technology.",
+      "source": "website",
+      "type": "hero",
+      "title": "Hero",
+      "url": "/"
+    },
+    {
+      "id": "website:about:0",
+      "text": "What are you looking for in your next role?",
+      "source": "website",
+      "type": "about",
+      "title": "About",
+      "url": "/"
+    },
+    {
+      "id": "website:about:1",
+      "text": "With 12+ years spanning traditional banking (SBI) to cutting-edge fintech, I've mastered the art of translating complex RBI regulations into scalable technical roadmaps. I resonate deeply with building products that serve the underbanked and bring financial inclusion to millions.",
+      "source": "website",
+      "type": "about",
+      "title": "About",
+      "url": "/"
+    },
+    {
+      "id": "website:about:2",
+      "text": "I bring extensive experience working with high-growth startups, guiding them from ideation through scale. I offer expertise in API-first architectures, co-lending frameworks, and building systems that handle ₹1500Cr+ monthly disbursals.",
+      "source": "website",
+      "type": "about",
+      "title": "About",
+      "url": "/"
+    },
+    {
+      "id": "website:metrics:0",
+      "text": "Key metrics: $200M+ Portfolio Processed; 4x YoY Growth; 15+ Institutions; 2M+ Borrowers",
+      "source": "website",
+      "type": "metric",
+      "title": "Key Metrics",
+      "url": "/"
+    },
+    {
+      "id": "website:skill:0",
+      "text": "<>Architecting robust systems from origination to collections. I build end-to-end solutions that process $200M+ portfolios while ensuring compliance with RBI guidelines.",
+      "source": "website",
+      "type": "skill",
+      "title": "Lending Infrastructure",
+      "url": "/"
+    },
+    {
+      "id": "website:skill:1",
+      "text": "<>Pioneered orchestration modules for Banks and NBFCs. Engineered frameworks handling over ₹1500Cr+ monthly disbursals across diverse lending partners.",
+      "source": "website",
+      "type": "skill",
+      "title": "Co-Lending & Partnerships",
+      "url": "/"
+    },
+    {
+      "id": "website:skill:2",
+      "text": "<>Driving 4x YoY growth through data-informed decisions. Specialist in funnel optimization and revenue products that reduce operational overhead by 60%.",
+      "source": "website",
+      "type": "skill",
+      "title": "Product Strategy & Growth",
+      "url": "/"
+    },
+    {
+      "id": "website:skill:3",
+      "text": "<>Applying LLMs and agentic workflows to the product lifecycle. Built automated PRD and reconciliation tools that save 75% of manual effort.",
+      "source": "website",
+      "type": "skill",
+      "title": "AI & Automation",
+      "url": "/"
+    },
+    {
+      "id": "website:contact:0",
+      "text": "Email: joytdh@gmail.com\nLinks: https://www.linkedin.com/in/joydeepsarkar1987/, https://github.com/joydeep-pm, https://x.com/joytdh",
+      "source": "website",
+      "type": "contact",
+      "title": "Contact",
+      "url": "/#contact"
+    },
+    {
+      "id": "work:finvolv:0",
+      "text": "Title: Finvolv\nRole: Lead Product Manager\nDuration: Dec 2021 – Oct 2022\nMetric: 3x ARR revenue growth\nTags: lending, b2b-saas, api-first\n\nLed product development for API-first lending stack across 12+ financial institutions.",
+      "source": "website",
+      "type": "work",
+      "title": "Finvolv",
+      "role": "Lead Product Manager",
+      "dates": "Dec 2021 – Oct 2022",
+      "tags": [
+        "lending",
+        "b2b-saas",
+        "api-first"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:finvolv:1",
+      "text": "Title: Finvolv\nRole: Lead Product Manager\nDuration: Dec 2021 – Oct 2022\nMetric: 3x ARR revenue growth\nTags: lending, b2b-saas, api-first\n\n## Key Achievements\n- **API-First Stack:** 83% reduction in time-to-market\n- **Aramex BNPL (KSA):** 0.5mn users, 5mn SAR portfolio\n- **Underwriting Engine:** 45% increase in loan approvals",
+      "source": "website",
+      "type": "work",
+      "title": "Finvolv",
+      "role": "Lead Product Manager",
+      "dates": "Dec 2021 – Oct 2022",
+      "tags": [
+        "lending",
+        "b2b-saas",
+        "api-first"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:m2p-fintech:0",
+      "text": "Title: M2P Fintech\nRole: Director – Core Lending Suite\nDuration: Nov 2024 – Present\nMetric: $200M+ portfolio processed\nTags: lending, b2b-saas, infrastructure\n\nLeading product vision and delivery for the Core Lending Suite, managing cross-functional teams of Product Managers and Engineers.",
+      "source": "website",
+      "type": "work",
+      "title": "M2P Fintech",
+      "role": "Director – Core Lending Suite",
+      "dates": "Nov 2024 – Present",
+      "tags": [
+        "lending",
+        "b2b-saas",
+        "infrastructure"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:m2p-fintech:1",
+      "text": "Title: M2P Fintech\nRole: Director – Core Lending Suite\nDuration: Nov 2024 – Present\nMetric: $200M+ portfolio processed\nTags: lending, b2b-saas, infrastructure\n\n## Key Achievements\n- **Co-Lending Orchestration:** Multi-lender module, 5 enterprise accounts, $50M+ loan volume\n- **Loan Against Securities:** Automated valuation engine, $200M+ portfolio, 25% revenue increase\n- **Workflow Automation:** 60% reduction in operational overhead",
+      "source": "website",
+      "type": "work",
+      "title": "M2P Fintech",
+      "role": "Director – Core Lending Suite",
+      "dates": "Nov 2024 – Present",
+      "tags": [
+        "lending",
+        "b2b-saas",
+        "infrastructure"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:paytm:0",
+      "text": "Title: Paytm\nRole: Director – Product, Lending\nDuration: Nov 2022 – Nov 2024\nMetric: 4x loan disbursal growth YoY\nTags: lending, consumer, scale\n\nLed product strategy for Paytm's lending vertical, driving significant growth in loan disbursals.",
+      "source": "website",
+      "type": "work",
+      "title": "Paytm",
+      "role": "Director – Product, Lending",
+      "dates": "Nov 2022 – Nov 2024",
+      "tags": [
+        "lending",
+        "consumer",
+        "scale"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:paytm:1",
+      "text": "Title: Paytm\nRole: Director – Product, Lending\nDuration: Nov 2022 – Nov 2024\nMetric: 4x loan disbursal growth YoY\nTags: lending, consumer, scale\n\n## Key Achievements\n- **LMS Strategy:** 500K+ active borrowers served\n- **Partner Integration:** ₹1500Cr+ monthly disbursal via 5 lending partners\n- **Revenue Product:** 65% billing cycle reduction\n- **Subscriptions BNPL:** ₹15Cr monthly recurring revenue",
+      "source": "website",
+      "type": "work",
+      "title": "Paytm",
+      "role": "Director – Product, Lending",
+      "dates": "Nov 2022 – Nov 2024",
+      "tags": [
+        "lending",
+        "consumer",
+        "scale"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:sbi:0",
+      "text": "Title: State Bank of India\nRole: Deputy Manager & RM – SME\nDuration: Jun 2011 – Mar 2017\nMetric: 171% YoY SME portfolio growth\nTags: banking, sme, relationship-management\n\nManaged SME relationships and portfolio growth at India's largest public sector bank.",
+      "source": "website",
+      "type": "work",
+      "title": "State Bank of India",
+      "role": "Deputy Manager & RM – SME",
+      "dates": "Jun 2011 – Mar 2017",
+      "tags": [
+        "banking",
+        "sme",
+        "relationship-management"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "work:sbi:1",
+      "text": "Title: State Bank of India\nRole: Deputy Manager & RM – SME\nDuration: Jun 2011 – Mar 2017\nMetric: 171% YoY SME portfolio growth\nTags: banking, sme, relationship-management\n\n## Key Achievements\n- Selected top 0.5% for SBI–BCG MSME Transformation Project\n- 171% YoY growth in SME portfolio",
+      "source": "website",
+      "type": "work",
+      "title": "State Bank of India",
+      "role": "Deputy Manager & RM – SME",
+      "dates": "Jun 2011 – Mar 2017",
+      "tags": [
+        "banking",
+        "sme",
+        "relationship-management"
+      ],
+      "url": "/work"
+    },
+    {
+      "id": "case-study:acme-neobank:0",
+      "text": "Title: Business Banking for D2C\nCompany: ACME\nProblem: Design neo-bank platform for the $100Bn D2C market segment\nTags: Banking, Market Entry\n\n## Market Opportunity\n\n- D2C market in India: $100Bn+ at 25% CAGR\n- 800+ funded D2C brands, 50,000+ bootstrapped\n- Traditional banks ill-equipped for D2C financial patterns",
+      "source": "website",
+      "type": "case-study",
+      "title": "Business Banking for D2C",
+      "company": "ACME",
+      "tags": [
+        "Banking",
+        "Market Entry"
+      ],
+      "url": "/case-studies/acme-neobank"
+    },
+    {
+      "id": "case-study:acme-neobank:1",
+      "text": "Title: Business Banking for D2C\nCompany: ACME\nProblem: Design neo-bank platform for the $100Bn D2C market segment\nTags: Banking, Market Entry\n\n## D2C Pain Points\n1. Cash flow volatility (revenue spikes, consistent expenses)\n2. Multi-channel reconciliation (Shopify, Amazon, social)\n3. Working capital timing (30-60 day cycles)\n4. Compliance complexity (GST, TDS, marketplace deductions)",
+      "source": "website",
+      "type": "case-study",
+      "title": "Business Banking for D2C",
+      "company": "ACME",
+      "tags": [
+        "Banking",
+        "Market Entry"
+      ],
+      "url": "/case-studies/acme-neobank"
+    },
+    {
+      "id": "case-study:acme-neobank:2",
+      "text": "Title: Business Banking for D2C\nCompany: ACME\nProblem: Design neo-bank platform for the $100Bn D2C market segment\nTags: Banking, Market Entry\n\n## Product Solution\n### Core Platform\n\n1. **Smart Business Account** - Zero-balance, multi-signatory, API integration\n2. **Unified Commerce Dashboard** - Shopify, Amazon integrations, auto-reconciliation\n3. **Working Capital Suite** - Invoice financing, receivables financing\n4. **Compliance Autopilot** - Automated GST, TDS tracking, audit-ready reports\n5. **Expense Management** - Corporate cards, spend controls, vendor automation",
+      "source": "website",
+      "type": "case-study",
+      "title": "Business Banking for D2C",
+      "company": "ACME",
+      "tags": [
+        "Banking",
+        "Market Entry"
+      ],
+      "url": "/case-studies/acme-neobank"
+    },
+    {
+      "id": "case-study:acme-neobank:3",
+      "text": "Title: Business Banking for D2C\nCompany: ACME\nProblem: Design neo-bank platform for the $100Bn D2C market segment\nTags: Banking, Market Entry\n\n## Business Model\n- Float income from balances\n- Interchange from card transactions\n- Credit spread on working capital\n- SaaS fees for premium features",
+      "source": "website",
+      "type": "case-study",
+      "title": "Business Banking for D2C",
+      "company": "ACME",
+      "tags": [
+        "Banking",
+        "Market Entry"
+      ],
+      "url": "/case-studies/acme-neobank"
+    },
+    {
+      "id": "case-study:cred-collections:0",
+      "text": "Title: E2E Collections Product Suite\nCompany: CRED\nProblem: Build end-to-end collection product suite for PL, CC, and BNPL segments\nTags: Lending, System Design\n\n## Challenge\n\nCRED needed comprehensive collections infrastructure for Personal Loans, Credit Cards, and BNPL. The goal was a unified system handling different collection scenarios while maintaining excellent UX.",
+      "source": "website",
+      "type": "case-study",
+      "title": "E2E Collections Product Suite",
+      "company": "CRED",
+      "tags": [
+        "Lending",
+        "System Design"
+      ],
+      "url": "/case-studies/cred-collections"
+    },
+    {
+      "id": "case-study:cred-collections:1",
+      "text": "Title: E2E Collections Product Suite\nCompany: CRED\nProblem: Build end-to-end collection product suite for PL, CC, and BNPL segments\nTags: Lending, System Design\n\n## The 4 A's Framework\n1. **Acquire** - Debt portfolio acquisition and management\n2. **Analyze** - Customer segmentation and risk profiling\n3. **Act** - Multi-channel engagement strategies\n4. **Assess** - Performance monitoring and optimization",
+      "source": "website",
+      "type": "case-study",
+      "title": "E2E Collections Product Suite",
+      "company": "CRED",
+      "tags": [
+        "Lending",
+        "System Design"
+      ],
+      "url": "/case-studies/cred-collections"
+    },
+    {
+      "id": "case-study:cred-collections:2",
+      "text": "Title: E2E Collections Product Suite\nCompany: CRED\nProblem: Build end-to-end collection product suite for PL, CC, and BNPL segments\nTags: Lending, System Design\n\n## Solution Architecture\n### Core Modules\n- **Debt Management Engine:** Portfolio ingestion, automated aging, real-time sync\n- **Customer Intelligence:** Behavioral segmentation, propensity-to-pay scoring\n- **Engagement Orchestrator:** Omnichannel (SMS, Push, WhatsApp, IVR, Email)\n- **Settlement & Resolution:** Flexible payment plans, dispute management\n\n### Build vs Buy Analysis\n\n| Component | Decision | Rationale |\n|-----------|----------|-----------|\n| Collections Engine | Build | Competitive differentiator |\n| Communication Gateway | Buy + Customize | Gupshup/Kaleyra APIs |\n| Payment Processing | Leverage Existing | CRED infrastructure |\n| Analytics Layer | Build | Proprietary insights |",
+      "source": "website",
+      "type": "case-study",
+      "title": "E2E Collections Product Suite",
+      "company": "CRED",
+      "tags": [
+        "Lending",
+        "System Design"
+      ],
+      "url": "/case-studies/cred-collections"
+    },
+    {
+      "id": "case-study:cred-collections:3",
+      "text": "Title: E2E Collections Product Suite\nCompany: CRED\nProblem: Build end-to-end collection product suite for PL, CC, and BNPL segments\nTags: Lending, System Design\n\n## Projected Impact\n- 85%+ collection efficiency\n- 40% reduction in manual interventions\n- 3x improvement in customer response rates",
+      "source": "website",
+      "type": "case-study",
+      "title": "E2E Collections Product Suite",
+      "company": "CRED",
+      "tags": [
+        "Lending",
+        "System Design"
+      ],
+      "url": "/case-studies/cred-collections"
+    },
+    {
+      "id": "case-study:juspay-bnpl:0",
+      "text": "Title: BNPL Growth Strategy\nCompany: Juspay / MoreSimpl\nProblem: Grow BNPL transactions from 5% to 30% MoM in 6 months\nTags: Growth, Strategy\n\n## Challenge\n\nMoreSimpl was stagnant at 5% MoM growth. Target: accelerate to 30% MoM within 6 months while maintaining credit quality.",
+      "source": "website",
+      "type": "case-study",
+      "title": "BNPL Growth Strategy",
+      "company": "Juspay / MoreSimpl",
+      "tags": [
+        "Growth",
+        "Strategy"
+      ],
+      "url": "/case-studies/juspay-bnpl"
+    },
+    {
+      "id": "case-study:juspay-bnpl:1",
+      "text": "Title: BNPL Growth Strategy\nCompany: Juspay / MoreSimpl\nProblem: Grow BNPL transactions from 5% to 30% MoM in 6 months\nTags: Growth, Strategy\n\n## Multi-Pronged Strategy\n### Lever 1: Checkout Visibility (+8%)\n- Dynamic placement based on cart value vs credit limit\n- Clear value proposition messaging\n- Trust signals (RBI regulated, secure)\n\n### Lever 2: Smart Activation (+7%)\n- Cohort-based activation sequences\n- First-transaction incentives\n- Merchant-funded offers\n\n### Lever 3: Dynamic Credit Limits (+6%)\n- Real-time limit refresh based on repayment\n- Category-specific allocation\n- Limit increase as activation incentive\n\n### Lever 4: Category Expansion (+5%)\nPriority: Groceries, Healthcare, Education, Subscriptions\n\n### Lever 5: Personalization (+4%)\n- Purchase frequency patterns\n- Category preferences\n- Repayment reliability score",
+      "source": "website",
+      "type": "case-study",
+      "title": "BNPL Growth Strategy",
+      "company": "Juspay / MoreSimpl",
+      "tags": [
+        "Growth",
+        "Strategy"
+      ],
+      "url": "/case-studies/juspay-bnpl"
+    },
+    {
+      "id": "case-study:juspay-bnpl:2",
+      "text": "Title: BNPL Growth Strategy\nCompany: Juspay / MoreSimpl\nProblem: Grow BNPL transactions from 5% to 30% MoM in 6 months\nTags: Growth, Strategy\n\n## Success Metrics\n| Metric | Baseline | Target |\n|--------|----------|--------|\n| MoM Growth | 5% | 30% |\n| Activation Rate | 15% | 40% |\n| Credit Utilization | 25% | 50% |",
+      "source": "website",
+      "type": "case-study",
+      "title": "BNPL Growth Strategy",
+      "company": "Juspay / MoreSimpl",
+      "tags": [
+        "Growth",
+        "Strategy"
+      ],
+      "url": "/case-studies/juspay-bnpl"
+    },
+    {
+      "id": "case-study:smallcase-conversion:0",
+      "text": "Title: Conversion Optimization\nCompany: Smallcase\nProblem: Improve user conversion rate as SVP Product\nTags: Growth, Activation\n\n![Conversion Optimization Overview](/images/case-studies/smallcase.png)",
+      "source": "website",
+      "type": "case-study",
+      "title": "Conversion Optimization",
+      "company": "Smallcase",
+      "tags": [
+        "Growth",
+        "Activation"
+      ],
+      "url": "/case-studies/smallcase-conversion"
+    },
+    {
+      "id": "case-study:smallcase-conversion:1",
+      "text": "Title: Conversion Optimization\nCompany: Smallcase\nProblem: Improve user conversion rate as SVP Product\nTags: Growth, Activation\n\n## Funnel Analysis\nDrop-off points identified:\n- Signup → KYC: 40% drop (friction)\n- Browse → Select: 35% drop (decision paralysis)\n- Select → Invest: 25% drop (hesitation)",
+      "source": "website",
+      "type": "case-study",
+      "title": "Conversion Optimization",
+      "company": "Smallcase",
+      "tags": [
+        "Growth",
+        "Activation"
+      ],
+      "url": "/case-studies/smallcase-conversion"
+    },
+    {
+      "id": "case-study:smallcase-conversion:2",
+      "text": "Title: Conversion Optimization\nCompany: Smallcase\nProblem: Improve user conversion rate as SVP Product\nTags: Growth, Activation\n\n## Proposed Solutions\n### Solution 1: Progressive KYC (+15%)\n- Allow browsing without KYC\n- Mini KYC (Aadhaar OTP) at first investment\n- Full KYC post first transaction\n\n### Solution 2: Risk-Based Recommendations (+12%)\n- 3-question risk assessment\n- Personalized top 5 recommendations\n- Clear risk-return visualization\n\n### Solution 3: First Investment Confidence (+10%)\n- Micro-investment option (₹100 minimum)\n- Paper portfolio simulation\n- First investment cashback (₹50)",
+      "source": "website",
+      "type": "case-study",
+      "title": "Conversion Optimization",
+      "company": "Smallcase",
+      "tags": [
+        "Growth",
+        "Activation"
+      ],
+      "url": "/case-studies/smallcase-conversion"
+    },
+    {
+      "id": "case-study:smallcase-conversion:3",
+      "text": "Title: Conversion Optimization\nCompany: Smallcase\nProblem: Improve user conversion rate as SVP Product\nTags: Growth, Activation\n\n## Prioritization\n| Solution | Impact | Effort | Priority |\n|----------|--------|--------|----------|\n| Risk-based Reco | High | Medium | P0 |\n| Micro-investment | Medium | Low | P0 |\n| Progressive KYC | High | High | P1 |",
+      "source": "website",
+      "type": "case-study",
+      "title": "Conversion Optimization",
+      "company": "Smallcase",
+      "tags": [
+        "Growth",
+        "Activation"
+      ],
+      "url": "/case-studies/smallcase-conversion"
+    },
+    {
+      "id": "project:bookmarks-architect:0",
+      "text": "Title: X Bookmarks Architect\n\n## 🔍 The Problem\n\nPMs in Fintech and AI face a growing \"black hole\" of bookmarks on X—thousands of saved posts that remain unsorted, disconnected from workflows, and effectively useless for knowledge retrieval.\n\nI had **2,000+ bookmarks** accumulated over years. Finding anything meant endless scrolling. The knowledge was there, but completely inaccessible.",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:bookmarks-architect:1",
+      "text": "Title: X Bookmarks Architect\n\n## 💡 The Solution\nBuilt an end-to-end data pipeline to extract, process, and ingest all bookmarks into a structured Notion \"Second Brain\" with **zero manual effort**.",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:bookmarks-architect:2",
+      "text": "Title: X Bookmarks Architect\n\n## 🛠️ Implementation Steps\n### 🔐 Authentication & Harvesting (Playwright)\n- Automated browser session with cookie-based authentication\n- Handled X's anti-bot measures with realistic interaction patterns\n- Session persistence for reliable multi-hour extractions\n\n### 📜 Infinite Scroll Engineering\n- Custom scroll algorithm to handle X's lazy-loading\n- Implemented backoff strategies to avoid rate limits\n- Checkpoint system to resume interrupted sessions\n\n### ⚡ Zero-Token Sync Engine\n- Direct Notion API integration via MCP (Model Context Protocol)\n- Structured data mapping: URL, text, author, timestamp, categories\n- 95% reduction in API costs vs standard AI processing approaches\n\n### 🎯 Algorithmic Noise Filtering\n- Rule-based filtering to exclude sports, memes, and off-topic content\n- Category auto-assignment based on content patterns\n- Priority scoring for fintech/AI/product content",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:bookmarks-architect:3",
+      "text": "Title: X Bookmarks Architect\n\n## 📊 Technical Highlights\n| Metric | Result |\n|:-------|:-------|\n| 📦 Items Migrated | **2,000+** |\n| 💰 API Cost Reduction | **95%** vs AI-based approaches |\n| 🤖 Manual Effort | **Zero** post-setup |\n| ✅ Success Rate | **99.2%** |",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:bookmarks-architect:4",
+      "text": "Title: X Bookmarks Architect\n\n## 🎯 Why This Matters for PMs\nThis project demonstrates:\n\n- 💻 **Technical Literacy:** Writing production code, not just specs\n- 📈 **Scalable Workflows:** Building systems that compound over time\n- 🔗 **Tool Integration:** Connecting disparate tools into cohesive pipelines\n- 🧩 **Problem-Solution Fit:** Identifying personal pain points and engineering solutions",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:bookmarks-architect:5",
+      "text": "Title: X Bookmarks Architect\n\n## 🔧 Stack\n- **Playwright (Python):** Browser automation and scraping\n- **Warp Terminal:** Modern terminal for development\n- **Notion API + MCP:** Structured knowledge base integration\n- **Python 3.x:** Core scripting and data processing",
+      "source": "website",
+      "type": "project",
+      "title": "X Bookmarks Architect",
+      "url": "/projects/bookmarks-architect"
+    },
+    {
+      "id": "project:custom-mcp-lenny:0",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 🔍 The Problem\n\nPM frameworks are trapped in transcripts. The best product advice from interviews with top PMs—pricing strategies, growth tactics, roadmap frameworks—sits buried in hours of podcast content.\n\nContext-switching between IDE and browser to find relevant advice slows down technical drafting. Every time I'm writing a PRD or strategy doc, I'd think \"Lenny had a great episode on this...\" and lose 20 minutes searching.",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:1",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 💡 The Solution\nA custom Model Context Protocol (MCP) server that indexes **320+ Lenny's Podcast transcripts**, allowing an AI agent to search for elite PM advice in real-time—directly from my IDE.",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:2",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 🛠️ Technical Implementation\n### 📥 Data Acquisition\n- Cloned 320+ markdown transcripts from ChatPRD's public archive\n- Organized by guest, topic, and date for efficient indexing\n- 2M+ words of PM wisdom, locally accessible\n\n### 🖥️ MCP Server Development\n- Built Python-based server using the official MCP SDK\n- Implemented semantic search across all transcripts\n- Handles concurrent queries with low latency\n\n### 🔧 Custom Tool: search_lenny_insights\n- Query interface: natural language questions about PM topics\n- Returns relevant excerpts with episode context\n- Supports filtering by guest, topic, or date range\n\n### 🤖 Claude Code Integration\n- Connected via --mcp flag for agentic workflows\n- Real-time access during PRD drafting\n- No browser context-switching required",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:3",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 💬 Example Usage\n**Query:** \"What does Shreyas Doshi say about high-agency PMs?\"\n\n**Response:** Found 3 relevant excerpts from Shreyas Doshi episodes discussing how high-agency PMs don't wait for permission—they identify the most important problem and start solving it.",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:4",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 📊 Impact\n| Metric | Result |\n|:-------|:-------|\n| 📚 Transcripts Indexed | **320+** |\n| 📝 Total Content | **2M+ words** |\n| ⚡ Search Latency | **Under 2s** |\n| 🎯 Context Switches Saved | **100%** |",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:5",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 🎯 Why This Matters\nTransformed a static archive into an **active tool** for:\n\n- 📄 Writing PRDs with real framework references\n- 🧠 Brainstorming technical strategy with expert backing\n- 📈 Learning PM craft through targeted retrieval\n- ⚡ Building \"just-in-time\" knowledge systems",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:6",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 🌐 The Bigger Picture\nThis project demonstrates the power of MCP for building personal productivity tools. Any knowledge corpus—books, courses, internal docs—can become an AI-accessible resource with the same pattern.",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:custom-mcp-lenny:7",
+      "text": "Title: Custom MCP for Lenny's Podcast\n\n## 🔧 Stack\n- **Python:** Core server implementation\n- **MCP SDK:** Model Context Protocol framework\n- **Claude Code:** AI agent integration\n- **Markdown:** Transcript storage format",
+      "source": "website",
+      "type": "project",
+      "title": "Custom MCP for Lenny's Podcast",
+      "url": "/projects/custom-mcp-lenny"
+    },
+    {
+      "id": "project:milestone-perk-tracker:0",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 🔍 The Problem\n\n**\"Perk Blindness\" and \"Optimization Fatigue\"** plague the Indian credit card ecosystem.\n\nWith 12+ premium cards (Infinia, Magnus, Reserve, etc.) each offering different reward structures, milestone bonuses, and merchant-specific accelerators, it's impossible to know which card to swipe for any given transaction.\n\nThe result: thousands of rupees in unrealized rewards, missed milestone bonuses, and decision fatigue at checkout.",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:1",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 💡 The Solution\nA fully local, privacy-first Android app that:\n- Tracks spend progress toward 1L/2L/5L milestone bonuses\n- Recommends the optimal card for any transaction in under 200ms\n- Stores everything on-device with zero cloud dependency",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:2",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 🛠️ The 5-Phase Build Journey\n### 🎨 Phase 1: The \"Vibe\" (Lovable)\n**Goal:** Rapidly prototype UI/UX and visual language\n\n- Fed Lovable a high-level vision of a premium Fintech dashboard\n- Focused on progress bars for milestone tracking, card-stack wallet views\n- Built a \"Top Pick\" transaction recommender component\n\n**Outcome:** High-fidelity React frontend matching top-tier Indian banking apps (CRED, Fold aesthetic)\n\n### 📦 Phase 2: The Handover (GitHub)\n**Goal:** Professional development environment setup\n\n- Exported raw React code from Lovable to private GitHub repository\n- Converted \"Vibe\" prototype into a local codebase\n- Enabled transition to heavy-duty engineering\n\n### 🧠 Phase 3: The Brain & Security (Cursor)\n**Goal:** Implement logic, database, and encryption\n\n**Database Engineering:**\n- Built Expo-SQLite foundation with `lib/db.ts`\n- Created schema for `card_offers` and `user_spend` tables\n- Implemented local seeding for 12+ premium Indian cards\n\n**The Search Algorithm (`lib/search.ts`):**\n- Natural language query handling\n- The Zomato Case: \"Zomato\" or \"Swiggy\" correctly weights cards like HDFC Infinia or Axis Airtel based on ERR\n- Custom Effective Reward Rate (ERR) algorithm\n\n**Privacy Architecture:**\n- Wired `SQLiteProvider` into root `_layout.tsx`\n- Zero-cloud dependency—all data stays on device\n\n### 🎛️ Phase 4: The Orchestration (Warp + Claude Code)\n**Goal:** Managing technical debt and large-scale refactors\n\n- **Warp Terminal:** Command center with AI-assisted build commands\n- **Claude Code Integration:** When Cursor hit limits, switched to Claude Code\n  - Refactored \"spaghetti code\" from Lovable export into modular components\n  - Automated terminal-based Android build process (`eas build`)\n\n### 🚀 Phase 5: The Deployment (Android APK)\n**Goal:** Complete Plan → Build → Deploy lifecycle\n\n- Delivered fully functional, local-first Android APK\n- Sub-200ms transaction recommendations\n- Zero privacy compromise",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:3",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 📊 Technical Architecture\n| Layer | Technology |\n|:------|:-----------|\n| 📱 Framework | React Native / Expo |\n| 💾 Storage | SQLite (Local-First) |\n| 🔐 Security | SQLCipher-ready, Biometric Auth hooks |\n| ⚡ Logic | Custom ERR Algorithm |\n| 🔧 Dev Pipeline | Lovable → GitHub → Cursor → Warp → Claude Code |",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:4",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 🎯 Key Features\n- 📈 **Milestone Tracking:** Visual progress toward 1L/2L/5L spend bonuses\n- 🔍 **Smart Recommendations:** \"Which card for Zomato?\" → Instant answer\n- 💳 **Card Wallet View:** Premium card-stack UI for 12+ cards\n- 📴 **Offline-First:** Works without internet, no data leaves device\n- 🇮🇳 **Indian Card Database:** Infinia, Magnus, Reserve, Airtel, and more",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:5",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 🎯 Why This Matters: Vibe Coding → Systems Engineering\nThis project demonstrates the **\"Vibe Coding\" to \"Systems PM\" pipeline**:\n\n1. 🤖 **AI-Native Development:** Leveraging Lovable, Cursor, and Claude Code as force multipliers\n2. 🏗️ **Technical Architecture:** Designing local-first data systems with encryption-ready foundations\n3. 🔄 **End-to-End Ownership:** From UI prototyping to database schema to Android deployment\n4. 🔒 **Privacy Engineering:** Building Fintech without compromising user data\n\n> \"By utilizing AI-native tools, I managed the end-to-end lifecycle of a secure Fintech app—from UI prototyping to local database architecture and final Android deployment.\"",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:milestone-perk-tracker:6",
+      "text": "Title: The Architect's Journey: Milestone & Perk Tracker\n\n## 🔧 Stack\n- **React Native / Expo:** Cross-platform mobile framework\n- **SQLite:** Local-first persistent storage\n- **Lovable:** AI-powered UI prototyping\n- **Cursor:** AI-assisted code development\n- **Claude Code:** Large-scale refactoring and automation\n- **Warp Terminal:** Modern terminal for build orchestration",
+      "source": "website",
+      "type": "project",
+      "title": "The Architect's Journey: Milestone & Perk Tracker",
+      "url": "/projects/milestone-perk-tracker"
+    },
+    {
+      "id": "project:pm-intelligence-engine:0",
+      "text": "Title: PM Intelligence Engine\n\n## 🔍 The Problem\n\nProduct managers consume hours of podcast content but lack a personalized way to find episodes that match their working style and philosophy. With **295 episodes** of Lenny's Podcast, finding the right insights for your specific challenges is like searching for a needle in a haystack.",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "project:pm-intelligence-engine:1",
+      "text": "Title: PM Intelligence Engine\n\n## 💡 The Solution\nAn interactive experience where PMs discover their philosophy through a **10-question quiz** built from real podcast transcripts. Every insight, quote, and recommendation is grounded in actual data—no generic advice.",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "project:pm-intelligence-engine:2",
+      "text": "Title: PM Intelligence Engine\n\n## 🛠️ Technical Implementation\n### 🧠 Philosophy Mapping System\n- 8 distinct PM archetypes identified through content analysis\n- 4 core dimensions: Velocity vs Perfection, Data vs Intuition, Discovery vs Focus, Alignment vs Chaos\n- Algorithm matches quiz responses to philosophy zones\n\n### 📝 AI-Powered Quote Curation\n- Claude Code extracted and verified 1,200+ quotes from transcripts\n- Each quote tagged with exact transcript line numbers for verification\n- Semantic matching to philosophy dimensions\n\n### 🎯 Recommendation Engine\n- 5 personalized episodes that match your philosophy\n- 3 contrarian episodes to challenge your worldview\n- Smart matching based on verified quote database\n\n### 🌌 Immersive 3D Experience\n- Three.js starfield visualization with React Three Fiber\n- Dark sci-fi aesthetic with terminal-style typography\n- Framer Motion animations throughout",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "project:pm-intelligence-engine:3",
+      "text": "Title: PM Intelligence Engine\n\n## 📊 Impact\n| Metric | Result |\n|:-------|:-------|\n| 📚 Episodes Analyzed | **295** |\n| ✅ Curated Episodes | **105** |\n| 💬 Verified Quotes | **1,224** |\n| 🎯 Philosophy Zones | **8** |",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "project:pm-intelligence-engine:4",
+      "text": "Title: PM Intelligence Engine\n\n## 🎯 Key Features\n- 📋 **Interactive Quiz:** 10 questions mapping your PM philosophy\n- 🎬 **Episode Deep-Dives:** Full transcripts with timestamp navigation\n- 🔍 **Quote Search:** Filter by theme, guest, or philosophy zone\n- 📱 **Responsive Design:** Works on all devices",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "project:pm-intelligence-engine:5",
+      "text": "Title: PM Intelligence Engine\n\n## 🔧 Stack\n- **Next.js 15:** App Router with SSR and dynamic routes\n- **Three.js + R3F:** 3D starfield graphics\n- **Framer Motion:** Smooth animations and transitions\n- **Claude Code:** AI-powered content curation\n- **TypeScript:** Type-safe development\n- **Tailwind CSS:** Utility-first styling",
+      "source": "website",
+      "type": "project",
+      "title": "PM Intelligence Engine",
+      "url": "/projects/pm-intelligence-engine"
+    },
+    {
+      "id": "thread:home-loan-not-really-yours:0",
+      "text": "Title: Why Your Home Loan Isn't Really 'Yours'\nTags: Lending, Home Loans, RBI\n\nWhen you take a home loan, you assume the bank that approved it will service it throughout. But the reality of modern lending is far more complex.",
+      "source": "website",
+      "type": "thread",
+      "title": "Why Your Home Loan Isn't Really 'Yours'",
+      "tags": [
+        "Lending",
+        "Home Loans",
+        "RBI"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%9B%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%9F%F0%9D%97%BC%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%9C%F0%9D%98%80%F0%9D%97%BB%F0%9D%98%81-activity-7371830965737844736-jAdj"
+    },
+    {
+      "id": "thread:home-loan-not-really-yours:1",
+      "text": "Title: Why Your Home Loan Isn't Really 'Yours'\nTags: Lending, Home Loans, RBI\n\n## The Hidden Journey of Your Loan\nYour home loan might travel through multiple institutions during its lifetime:\n- **Origination** - The lender who approves your loan\n- **Servicing** - The entity collecting your EMIs\n- **Ownership** - The actual holder of your debt\n\nThese can be three different entities.",
+      "source": "website",
+      "type": "thread",
+      "title": "Why Your Home Loan Isn't Really 'Yours'",
+      "tags": [
+        "Lending",
+        "Home Loans",
+        "RBI"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%9B%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%9F%F0%9D%97%BC%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%9C%F0%9D%98%80%F0%9D%97%BB%F0%9D%98%81-activity-7371830965737844736-jAdj"
+    },
+    {
+      "id": "thread:home-loan-not-really-yours:2",
+      "text": "Title: Why Your Home Loan Isn't Really 'Yours'\nTags: Lending, Home Loans, RBI\n\n## Why This Matters\nUnderstanding loan ownership helps you:\n1. Know who to contact for issues\n2. Understand why terms might change\n3. Navigate prepayment and foreclosure\n4. Protect yourself during disputes",
+      "source": "website",
+      "type": "thread",
+      "title": "Why Your Home Loan Isn't Really 'Yours'",
+      "tags": [
+        "Lending",
+        "Home Loans",
+        "RBI"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%9B%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%9F%F0%9D%97%BC%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%9C%F0%9D%98%80%F0%9D%97%BB%F0%9D%98%81-activity-7371830965737844736-jAdj"
+    },
+    {
+      "id": "thread:home-loan-not-really-yours:3",
+      "text": "Title: Why Your Home Loan Isn't Really 'Yours'\nTags: Lending, Home Loans, RBI\n\n## The Co-Lending Angle\nWith RBI's co-lending guidelines, this complexity is increasing. Banks and NBFCs now jointly originate loans, splitting both risk and return.\n\nFor borrowers, this means:\n- Multiple parties involved in your loan\n- Different servicing experiences\n- Complex escalation paths",
+      "source": "website",
+      "type": "thread",
+      "title": "Why Your Home Loan Isn't Really 'Yours'",
+      "tags": [
+        "Lending",
+        "Home Loans",
+        "RBI"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%9B%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%9F%F0%9D%97%BC%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%9C%F0%9D%98%80%F0%9D%97%BB%F0%9D%98%81-activity-7371830965737844736-jAdj"
+    },
+    {
+      "id": "thread:home-loan-not-really-yours:4",
+      "text": "Title: Why Your Home Loan Isn't Really 'Yours'\nTags: Lending, Home Loans, RBI\n\n## What You Can Do\n1. Always get the loan agreement reviewed\n2. Understand the servicing arrangement upfront\n3. Keep records of all communication\n4. Know your rights under RBI guidelines",
+      "source": "website",
+      "type": "thread",
+      "title": "Why Your Home Loan Isn't Really 'Yours'",
+      "tags": [
+        "Lending",
+        "Home Loans",
+        "RBI"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_%F0%9D%97%AA%F0%9D%97%B5%F0%9D%98%86-%F0%9D%97%AC%F0%9D%97%BC%F0%9D%98%82%F0%9D%97%BF-%F0%9D%97%9B%F0%9D%97%BC%F0%9D%97%BA%F0%9D%97%B2-%F0%9D%97%9F%F0%9D%97%BC%F0%9D%97%AE%F0%9D%97%BB-%F0%9D%97%9C%F0%9D%98%80%F0%9D%97%BB%F0%9D%98%81-activity-7371830965737844736-jAdj"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:0",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\nCo-lending is one of the most significant regulatory innovations in Indian lending. Here's how to build systems that work.",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:1",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\n## Understanding Co-lending\nRBI's co-lending model allows banks and NBFCs to jointly originate loans:\n- **Bank share:** Minimum 20% of the loan\n- **NBFC share:** Maximum 80% of the loan\n- **Risk sharing:** Proportional to contribution",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:2",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\n## Technical Architecture Considerations\n### 1. Loan Origination\n- Single application, dual underwriting\n- Unified customer experience\n- Split disbursement handling\n\n### 2. Servicing Complexity\n- Single EMI collection\n- Proportional distribution\n- Unified customer communication\n\n### 3. Default Management\n- NPA recognition alignment\n- Collection coordination\n- Recovery sharing",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:3",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\n## Key Implementation Challenges\n1. **Data synchronization** between bank and NBFC systems\n2. **Reconciliation** of daily transactions\n3. **Regulatory reporting** for both entities\n4. **Customer service** coordination",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:4",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\n## Our Approach at M2P\nWe built the co-lending orchestration module to handle:\n- Real-time loan allocation\n- Automated compliance checks\n- Unified servicing layer\n- Transparent reporting",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "thread:implementing-rbi-colending:5",
+      "text": "Title: Implementing RBI's Co-lending Directions\nTags: Co-lending, RBI, Technical\n\n## Results\n- 5 enterprise accounts onboarded\n- $50M+ loan volume processed\n- Zero compliance issues",
+      "source": "website",
+      "type": "thread",
+      "title": "Implementing RBI's Co-lending Directions",
+      "tags": [
+        "Co-lending",
+        "RBI",
+        "Technical"
+      ],
+      "url": "https://www.linkedin.com/posts/joydeepsarkar1987_implementing-rbis-colending-directions-activity-7365090123878756353-RMIE"
+    },
+    {
+      "id": "resume:0",
+      "text": "Joydeep Sarkar\nBengaluru, India | +91 877-771-7039 | joytdh@gmail.com\nExperienced Product Management leader with a background in fintech and e-commerce, specializing in digital lending.\nResults-driven Product Management leader with 5+ years of experience in fintech and e-commerce, specializing in\ndigital lending solutions. Proven track record of leading 0→1 and 1→10 product initiatives that delivered 3x\nYoY revenue growth with 2M+ active users. Expert in building and scaling high-impact, cross-functional\nteams while driving exceptional user experiences through data-driven product strategy and innovation.\nPROFESSIONAL EXPERIENCE\nDirector – Core Lending Suite\nM2P Fintech | B2B SaaS Lending | Nov 2024 – Present | Bengaluru, India\n- - Spearheaded product vision and delivery for Core Lending Suite (LOS/LMS), a comprehensive API-first, low-code\nSaaS platform that empowered 15+ financial institutions (banks, NBFCs & fintechs) to rapidly launch and scale loan\nproducts, resulting in 40% faster time-to-market.\n– Architected and launched Co-Lending Module featuring multi-lender orchestration with triple repayment schedules,\nadvanced lender-level risk/charge splits, and real-time reconciliation; successfully deployed across 5 enterprise\naccounts, processing $50M+ in loan volume\n– Developed innovative Loan Against Securities (Mutual Funds & Shares) product with automated valuation engine,\nLTV logic, and flexible repayment options; scaled to support a $200M+ customer portfolio, generating 25% increase in\nplatform revenue\n– Engineered comprehensive workflow automation system with configurable billing, moratoriums, and DPD/NPA\ntracking capabilities, reducing operational overhead by 60% and improving compliance monitoring across all loan\nproducts\nDirector – Product, Lending\nPaytm | B2C Lending | Nov 2022 – Nov 2024 | Bengaluru, India\n– Led end-to-end product strategy and execution for comprehensive Loan Management System, driving 4x increase in\nloan disbursals YoY and establishing market leadership in digital lending space\n– Conceptualized and launched Lending Revenue Data Product with automated configuration and calculation engine,\nreducing billing cycle times by 65% and eliminating manual errors for enterprise clients\n– Built and led high-performing cross-functional team of 3 Product Managers, collaborating closely with Tech and QA\nteams to deliver scalable Loan Management System serving 500K+ active borrowers\n– Drove product roadmap prioritization to ensure regulatory compliance and security standards, successfully\nmitigating operational risks while maintaining aggressive growth targets and platform scalability\n– Orchestrated seamless integration with 5 major lending partners, automating fund settlements and securing\n₹1500Cr+ monthly disbursal capital through strategic API partnerships and real-time reconciliation systems\n– Pioneered TechOps automation initiatives, reducing support queries by 40% through innovative user workflows and\nachieving 10% reduction in customer churn via implementation of UPI Autopay feature\n– Launched innovative Subscriptions for BNPL product line, generating ₹15Cr monthly recurring revenue and\nexpanding market reach to underserved customer segments\n– Implemented intelligent late fee waiver system (up to 10 lac INR), achieving 5% reduction in customer support i-\nDesigned and deployed automated excess reversal system, processing 20K+ monthly requests and returning ₹1.9Cr+ in\nsurplus funds to customers, enhancing trust and operational efficiency",
+      "source": "resume",
+      "type": "resume",
+      "title": "Resume"
+    },
+    {
+      "id": "resume:1",
+      "text": "Lead Product Manager\nFinvolv | B2B SaaS Lending | Dec 2021 – Oct 2022 | Bengaluru, India\n– Accelerated product ARR revenue growth by 3x, achieving consistent 27% quarterly growth through strategic\nproduct optimization and market expansion initiatives\n– Reduced time-to-market by 83% through agile product development methodology, implementing robust feature sets\nand pre-configured variables for rapid deployment\n– Architected and delivered comprehensive API-first Lending Stack (LMS, Collections, Rule Engine) successfully\ndeployed across 12+ financial institutions, establishing market presence in B2B SaaS lending space\n- Generated over USD 60 Mn in Customer Lifetime Value (CLTV) for Finvolv customers\n- Launched Aramex BNPL, Prepaid, & Part Pay, achieving user adoption of more than 0.5mn and a portfolio of 5mn SAR\n- Innovated a Merchant Portal for Order Management, Settlements, and Remittance, onboarding over 35 merchants\n- Deployed real-time underwriting engine integrating 20+ parameters for optimizing and increasing approvals by 45%\n- Pivoted MVP by accelerating an alternate go-live strategy and executing on-time, adapting to COVID-19 crisis\nProduct Manager\nAdiFi (Adi Partners) | Apr 2018 – Nov 2019 | Bengaluru, India\n- Led ideation of AdiWealth, a personal financial management platform for the unbanked, from initial concept to MVP\n- Formulated the product strategy and led the development and beta release\nDeputy Manager & RM – SME\nState Bank of India | Jun 2011 – Mar 2017 | Kolkata, India\n- Achieved 171% YoY growth in SME portfolio; acquired USD 1.79 mn in new clients.\n- Selected in top 0.5% officers for SBI–BCG MSME Transformation Project.\nSystems Engineer\nInfosys Limited | Dec 2009 – Apr 2011 | Chennai & Mysore\n- Developed web applications for BNSF Railways; recognised as top contributor.\nEDUCATION\n- EPGP (1-Year MBA) – IIM Bangalore\n- B.Tech (Electrical Engineering) – WBUT (DGPA 8.42)\n- Executive Programs: Technology & Entrepreneurship – Wharton | KAIST International Business",
+      "source": "resume",
+      "type": "resume",
+      "title": "Resume"
+    },
+    {
+      "id": "resume:2",
+      "text": "-",
+      "source": "resume",
+      "type": "resume",
+      "title": "Resume"
+    }
+  ]
+}
