@@ -131,6 +131,26 @@ export default function Desktop({
     }
   }
 
+  const openAssistant = () => {
+    openApp({
+      id: "assistant",
+      title: "Mac - Joydeep's portfolio assistant",
+      component: "Assistant",
+      position: { x: 80, y: 120 },
+      size: { width: 560, height: 520 },
+    })
+  }
+
+  const openAbout = () => {
+    openApp({
+      id: "about",
+      title: "About Joydeep",
+      component: "About",
+      position: { x: 140, y: 140 },
+      size: { width: 520, height: 420 },
+    })
+  }
+
   return (
     <div className="relative">
       <div
@@ -151,6 +171,30 @@ export default function Desktop({
           isDarkMode={isDarkMode}
           activeWindow={activeWindowId ? openWindows.find((w) => w.id === activeWindowId) || null : null}
         />
+
+        {/* Desktop actions */}
+        <div className="absolute inset-0 pointer-events-none">
+          <div className="absolute top-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 pointer-events-auto">
+            <button
+              onClick={openAbout}
+              className={`px-5 py-2 rounded-xl text-sm font-medium ${
+                isDarkMode
+                  ? "bg-white/20 text-white hover:bg-white/30"
+                  : "bg-white/70 text-gray-800 hover:bg-white"
+              } backdrop-blur-lg shadow-lg`}
+            >
+              About me
+            </button>
+
+            <button
+              onClick={openAssistant}
+              className="flex flex-col items-center gap-2"
+            >
+              <img src="/ask-mac.svg" alt="Ask Mac" className="h-14 w-14" />
+              <span className={`text-sm ${isDarkMode ? "text-white" : "text-gray-800"}`}>Ask Mac</span>
+            </button>
+          </div>
+        </div>
 
         {/* Windows */}
         <div className="absolute inset-0 pt-6 pb-16">

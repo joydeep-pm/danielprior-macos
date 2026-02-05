@@ -7,13 +7,6 @@ import type { AppWindow } from "@/types"
 const launchpadApps = [
   { id: "safari", title: "Safari", icon: "/safari.png", component: "Safari" },
   { id: "mail", title: "Mail", icon: "/mail.png", component: "Mail" },
-  {
-    id: "assistant",
-    title: "Ask Mac",
-    windowTitle: "Mac - Joydeep's portfolio assistant",
-    icon: "/chatgpt.png",
-    component: "Assistant",
-  },
   { id: "vscode", title: "VS Code", icon: "/vscode.png", component: "VSCode" },
   { id: "notes", title: "Notes", icon: "/notes.png", component: "Notes" },
   { id: "facetime", title: "FaceTime", icon: "/facetime.png", component: "FaceTime" },

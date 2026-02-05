@@ -15,6 +15,7 @@ export async function POST(req: Request) {
     const result = await getRagAnswer(message)
     return NextResponse.json(result)
   } catch (error) {
-    return NextResponse.json({ error: "Failed to process request." }, { status: 500 })
+    const message = error instanceof Error ? error.message : "Failed to process request."
+    return NextResponse.json({ error: message }, { status: 500 })
   }
 }

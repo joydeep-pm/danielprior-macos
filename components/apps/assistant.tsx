@@ -59,13 +59,14 @@ export default function Assistant({ isDarkMode = true }: AssistantProps) {
         body: JSON.stringify({ message: prompt }),
       })
 
-      if (!response.ok) {
-        throw new Error("Request failed")
-      }
-
       const data = (await response.json()) as {
         answer?: string
         sources?: SourceRef[]
+        error?: string
+      }
+
+      if (!response.ok) {
+        throw new Error(data?.error || "Request failed")
       }
 
       setMessages((prev) =>
@@ -80,12 +81,13 @@ export default function Assistant({ isDarkMode = true }: AssistantProps) {
         ),
       )
     } catch (error) {
+      const message = error instanceof Error ? error.message : "Sorry, I could not process that request."
       setMessages((prev) =>
         prev.map((msg) =>
           msg.id === pendingId
             ? {
                 ...msg,
-                content: "Sorry, I could not process that request. Please try again.",
+                content: message,
               }
             : msg,
         ),
@@ -102,20 +104,24 @@ export default function Assistant({ isDarkMode = true }: AssistantProps) {
     }
   }
 
-  const containerBg = isDarkMode ? "bg-slate-900" : "bg-slate-200"
-  const panelBg = isDarkMode ? "bg-white/5" : "bg-white/60"
-  const assistantBubble = isDarkMode ? "bg-white/10 text-white" : "bg-white text-gray-900"
-  const userBubble = isDarkMode ? "bg-blue-600 text-white" : "bg-blue-500 text-white"
+  const containerBg = isDarkMode ? "bg-white/10" : "bg-white/70"
+  const panelBg = isDarkMode ? "bg-gradient-to-b from-white/15 to-white/5" : "bg-white/80"
+  const assistantBubble = isDarkMode ? "bg-white/20 text-white" : "bg-white text-gray-900"
+  const userBubble = isDarkMode ? "bg-white/10 text-white" : "bg-gray-200 text-gray-900"
   const inputBg = isDarkMode ? "bg-white/10 text-white" : "bg-white text-gray-900"
-  const inputPlaceholder = isDarkMode ? "placeholder:text-white/60" : "placeholder:text-gray-500"
+  const inputPlaceholder = isDarkMode ? "placeholder:text-white/70" : "placeholder:text-gray-500"
 
   return (
     <div className={`h-full w-full ${containerBg}`}>
-      <div className={`h-full w-full flex flex-col ${panelBg} backdrop-blur-xl`}>
+      <div className={`h-full w-full flex flex-col ${panelBg} backdrop-blur-2xl`}>
         <div className="flex-1 overflow-y-auto px-6 py-5 space-y-4">
           {messages.map((message) => (
             <div key={message.id} className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}>
-              <div className={`max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed ${message.role === "user" ? userBubble : assistantBubble}`}>
+              <div
+                className={`max-w-[75%] rounded-2xl px-4 py-3 text-sm leading-relaxed shadow-lg ${
+                  message.role === "user" ? userBubble : assistantBubble
+                }`}
+              >
                 <p>{message.content}</p>
                 {message.sources && message.sources.length > 0 && message.role === "assistant" && (
                   <div className={`mt-2 text-xs ${isDarkMode ? "text-white/60" : "text-gray-500"}`}>
