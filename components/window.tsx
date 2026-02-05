@@ -7,6 +7,7 @@ import { X, Minus, ArrowRightIcon as ArrowsMaximize } from "lucide-react"
 import type { AppWindow } from "@/types"
 import Notes from "@/components/apps/notes"
 import GitHub from "@/components/apps/github"
+import LinkedInApp from "@/components/apps/linkedin"
 import Safari from "@/components/apps/safari"
 import VSCode from "@/components/apps/vscode"
 import FaceTime from "@/components/apps/facetime"
@@ -23,6 +24,7 @@ import About from "@/components/apps/about"
 const componentMap: Record<string, React.ComponentType<{ isDarkMode?: boolean }>> = {
   Notes,
   GitHub,
+  LinkedIn: LinkedInApp,
   Safari,
   VSCode,
   FaceTime,

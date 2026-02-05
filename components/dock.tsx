@@ -14,6 +14,7 @@ const dockApps = [
   { id: "notes", title: "Notes", icon: "/notes.png", component: "Notes" },
   { id: "terminal", title: "Terminal", icon: "/terminal.png", component: "Terminal" },
   { id: "github", title: "GitHub", icon: "/github.png", component: "GitHub" },
+  { id: "linkedin", title: "LinkedIn", icon: "/linkedin.png", component: "LinkedIn" },
 ]
 
 interface DockProps {
